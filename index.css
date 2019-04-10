@@ -1,0 +1,32 @@
+body.dialog-open {
+    position: fixed;
+    width: 100%;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+#float-btn {
+    outline: none;
+    color: #fff;
+    background: blue;
+    position: fixed;
+    bottom: 0;
+}
+.float-window {
+    display: none;
+    position: fixed;
+    background: #fff;
+    overflow: scroll;
+    padding: 20px;
+    border: 2px solid #333;
+    height: 300px;
+    top: 0;
+}
+.show {
+    display: block;
+}

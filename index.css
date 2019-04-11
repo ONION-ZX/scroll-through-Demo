@@ -9,13 +9,18 @@ body.dialog-open {
     align-items: center;
     height: 100%;
 }
+.btn-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+}
 
-#float-btn {
+#open, #close {
     outline: none;
     color: #fff;
     background: blue;
-    position: fixed;
-    bottom: 0;
 }
 .float-window {
     display: none;
